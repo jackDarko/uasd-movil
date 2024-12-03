@@ -2,14 +2,11 @@ import React, { useEffect, useState } from 'react';
 import { View, Text, FlatList, Button, StyleSheet } from 'react-native';
 
 export default function Solicitudes() {
-  const [solicitudes, setSolicitudes] = useState([]);
-
-  useEffect(() => {
-    fetch('https://uasdapi.ia3x.com/mis_solicitudes')
-      .then(response => response.json())
-      .then(data => setSolicitudes(data))
-      .catch(error => console.error('Error al cargar solicitudes:', error));
-  }, []);
+  const [solicitudes, setSolicitudes] = useState([
+    { tipo: 'Solicitud de Beca', estado: 'Rechazada' },
+    { tipo: 'Solicitud de Cambio de Carrera', estado: 'Pendiente' },
+    { tipo: 'Solicitud de Reembolso', estado: 'Pendiente' }
+  ]); // Información inventada
 
   const handleNuevaSolicitud = () => {
     console.log('Redirigiendo para crear nueva solicitud...');
