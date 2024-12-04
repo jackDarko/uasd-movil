@@ -78,6 +78,41 @@ const InicioScreen = () => {
       <Text style={styles.text}>
         Compromiso, responsabilidad, integridad, respeto, innovación y trabajo en equipo.
       </Text>
+      <Text style={styles.subtitle}>Historia</Text>
+      <Text style={styles.text}>
+        La Universidad Autónoma de Santo Domingo (UASD) es la universidad más antigua del continente
+        americano, fundada en 1538. A lo largo de los siglos, ha evolucionado para convertirse en la
+        principal institución de educación superior en la República Dominicana, con una amplia
+        oferta académica y un compromiso constante con la excelencia.
+      </Text>
+      <Text style={styles.subtitle}>Facultades</Text>
+      <Text style={styles.text}>
+        La UASD cuenta con varias facultades, entre ellas:
+        - Facultad de Ciencias
+        - Facultad de Humanidades
+        - Facultad de Ciencias Económicas y Sociales
+        - Facultad de Ingeniería y Arquitectura
+        - Facultad de Ciencias de la Salud
+        - Facultad de Artes
+      </Text>
+      <Text style={styles.subtitle}>Investigación</Text>
+      <Text style={styles.text}>
+        La UASD es un centro de investigación reconocido, con numerosos proyectos en diversas áreas
+        del conocimiento. La universidad fomenta la investigación entre sus estudiantes y profesores,
+        promoviendo la innovación y el desarrollo científico.
+      </Text>
+      <Text style={styles.subtitle}>Vida Estudiantil</Text>
+      <Text style={styles.text}>
+        La vida estudiantil en la UASD es vibrante y diversa, con una amplia gama de actividades
+        extracurriculares, clubes estudiantiles, eventos culturales y deportivos. La universidad
+        ofrece un entorno inclusivo y dinámico para el desarrollo integral de sus estudiantes.
+      </Text>
+      <Text style={styles.subtitle}>Infraestructura</Text>
+      <Text style={styles.text}>
+        La UASD cuenta con modernas instalaciones, incluyendo laboratorios equipados, bibliotecas,
+        auditorios, y espacios deportivos. La universidad está en constante mejora de su
+        infraestructura para ofrecer un ambiente óptimo para el aprendizaje y la investigación.
+      </Text>
     </View>
   );
 };
